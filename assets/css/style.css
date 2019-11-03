@@ -110,7 +110,8 @@ footer {
   height: 50px;
 }
 
-h3, h2 {
+h3,
+h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
@@ -187,15 +188,15 @@ h3, h2 {
 }
 
 label,
-input[type=text],
-input[type=email],
+input[type="text"],
+input[type="email"],
 textarea {
   display: block;
   width: 100%;
 }
 
-input[type=text],
-input[type=email],
+input[type="text"],
+input[type="email"],
 textarea {
   height: 35px;
   padding: 0 10px;
@@ -207,7 +208,7 @@ textarea {
   height: 200px;
 }
 
-input[type=submit] {
+input[type="submit"] {
   padding: 10px 30px;
   font-size: 18px;
   color: #ffffff;
@@ -217,13 +218,37 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
-
 }
 
-@media screen and (max-width: 768px {
+@media screen and {
+  .container {
+    max-width: 100%;
+  }
 
+  .main-section {
+    max-width: 100%;
+  }
+
+  nav {
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 640px) {
+  .container {
+    max-width: 100%;
+  }
 
+  .main-section {
+    max-width: 100%;
+  }
+
+  nav {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  #masthead {
+    position: static;
+  }
 }
